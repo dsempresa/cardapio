@@ -29,12 +29,12 @@ header {
     
     padding: 50px;
     margin: 30px;
-    font-size: 21px;
+    font-size: 14px;
     font-family: 'Pirata One', cursive;
     text-align: center;
     border-radius: 50%;
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     color: red;
     box-shadow: 2px 2px 5px 5px rgba(255, 1, 1, 0.445);
    
@@ -45,11 +45,11 @@ header > h2 {
 }
 
 header > h4 {
-    margin-top: -40px;
+    margin-top: -25px;
     font-family: 'Dancing Script', cursive;
     color: yellow;
     text-align: center;
-    font-size: 19px;
+    font-size: 12px;
 }
 
 h1.esquerda {
@@ -79,6 +79,7 @@ h2.titulo {
     font-family: var(--fonte-destaque);
     padding: 5px;
     margin: 5px;
+    font-size: 2em;
    
 }
 
@@ -92,9 +93,10 @@ ul {
 }
 
 li {
+
     margin: 7px;
     padding: 3px;
-    font-size: large;
+    font-size: 1.5em;
     
 }
 
