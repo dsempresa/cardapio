@@ -89,9 +89,10 @@ h2.titulo {
 }
 
 
-
-ul.salgados {
+aside > ul.salgados {
     font-family: var(--fonte-destaque);
+    list-style-type: square;
+    list-style-position: inside;
     padding: 10px;
     margin: 10px;
     columns: 2;
@@ -118,7 +119,7 @@ section {
 
 }
 
-section > img {
+section > picture > img {
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.616);
     width: 100px;
     height: 100px;
